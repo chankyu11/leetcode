@@ -6,7 +6,7 @@
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         # create dummy, dummy.next = None
-        dummy = ListNoder)
+        dummy = ListNode)
 
         # starting from node.val = 1
         while head:
