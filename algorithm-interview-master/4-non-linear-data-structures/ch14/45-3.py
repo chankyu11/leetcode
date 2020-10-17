@@ -15,7 +15,7 @@ class Solution:
 
         while stack:
             node = stack.pop()
-            # 부모 노드 부터 하향식 스왑
+            ## 부모 노드 부터 하향식 스왑
             if node:
                 node.left, node.right = node.right, node.left
 
