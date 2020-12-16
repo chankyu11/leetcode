@@ -1,6 +1,5 @@
 import collections
 
-
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         need = collections.Counter(t)
