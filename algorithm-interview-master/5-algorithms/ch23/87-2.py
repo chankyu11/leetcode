@@ -1,6 +1,5 @@
 import collections
 
-
 class Solution:
     dp = collections.defaultdict(int)
 
