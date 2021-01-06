@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def rob(self, nums: List[int]) -> int:
         def _rob(i: int) -> int:
